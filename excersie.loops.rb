@@ -32,4 +32,8 @@ p.each_with_index do |value,key|
   puts "each_with_index = #{key} - #{value}"
 end
 
-
+counts = 5
+until counts <= 0
+  puts "remaining = #{counts}"
+  counts -= 1
+end

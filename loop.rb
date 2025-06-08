@@ -1,29 +1,29 @@
-# # ✅ 1. while Loop
+# ✅ 1. while Loop
 
-# i = 1
-# while i <= 5
-#   puts "while: #{i}"
-#   i += 1
-# end
+i = 1
+while i <= 5
+  puts "while: #{i}"
+  i += 1
+end
 
-# # ✅ 2. until Loop
+# ✅ 2. until Loop
 
-# b = 1
+b = 1
 
-# until b > 5
-#   puts "until: #{b}"
-#   b += 1
-# end
+until b > 5
+  puts "until: #{b}"
+  b += 1
+end
 
-# # ✅ 3. times Loop
-# 5.times do |i|
-#   puts "Iteration #{i + 1}"
-# end
+# ✅ 3. times Loop
+5.times do |i|
+  puts "Iteration #{i + 1}"
+end
 
-# # ✅ 4. for Loop
-# for i in 1..5
-#   puts "for loops value: #{i}"
-# end
+# ✅ 4. for Loop
+for i in 1..5
+  puts "for loops value: #{i}"
+end
 
 #  ✅ 5. .each Loop
 [12, 24, 43, 53].each do |nums|
