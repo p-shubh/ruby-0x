@@ -19,7 +19,9 @@ def factorial(n = 2)
   return b
 end
 
-puts "factorial : #{factorial(6)}"
+m = "#{factorial(6)}"
+
+puts "factorial m : #{m}"
 puts "factorial : #{factorial()}"
 
 def print_language(*langs)
@@ -29,3 +31,10 @@ def print_language(*langs)
 end
 
 puts("golang", "python", "java")
+
+# sum of all numbers
+def addAll(*numberss)
+  return numberss.sum
+end
+
+puts "all total #{addAll(1,2,3,4)}"
